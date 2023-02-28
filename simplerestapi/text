@@ -4,6 +4,7 @@ npm install body-parser
 npm install sequelize
 sequalize init
  npm install mysql2
+ npm i fastest-validator
 
 
 sequalize model:generate --name Post --attributes title:string,content:text,imageUrl:str
