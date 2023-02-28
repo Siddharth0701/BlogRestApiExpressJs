@@ -1,0 +1,20 @@
+{
+  "name": "simplerestapi",
+  "version": "1.0.0",
+  "description": "A rest api with node js and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart" : "nodemon index.js"
+  },
+  "author": "Siddharth Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.20",
+    "npm-watch": "^0.11.0",
+    "sequelize": "^6.29.0"
+  }
+}

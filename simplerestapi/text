@@ -1,0 +1,10 @@
+npm init
+npm install exprees
+npm install body-parser
+npm install sequelize
+sequalize init
+ npm install mysql2
+
+
+sequalize model:generate --name Post --attributes title:string,content:text,imageUrl:str
+ing,categoryId:integer,userId:integer
