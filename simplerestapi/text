@@ -5,6 +5,7 @@ npm install sequelize
 sequalize init
  npm install mysql2
  npm i fastest-validator
+ npm i --save bcryptjs jsonwebtoken nodemon
 
 
 sequalize model:generate --name Post --attributes title:string,content:text,imageUrl:str
